@@ -1,5 +1,5 @@
 import React from 'react'
-import homepageImage from '../../images/homepageImage.jpeg'
+import homepageImage from '../../images/homepageImage.jpg'
 
 function Carousel(){
     return(
