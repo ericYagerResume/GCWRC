@@ -1,13 +1,13 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@aws-amplify/ui-react": "^1.2.26",
     "@headlessui/react": "^1.4.3",
     "@heroicons/react": "^1.0.5",
     "autoprefixer": "^10.4.2",
+    "aws-amplify": "^4.3.13",
     "gatsby": "^4.6.0",
     "gatsby-plugin-gatsby-cloud": "^4.6.0",
     "gatsby-plugin-image": "^2.6.0",
