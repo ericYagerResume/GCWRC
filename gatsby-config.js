@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Garners Creek Wildlife Rehabilitation Center`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Facilitation page for GCWRC`,
     author: `eric@garnerscreek.com`,
     siteUrl: `https://garnerscreek.com`,
   },
@@ -9,6 +9,8 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-image`,
+    `gatsby-transformer-sharp`, 
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
