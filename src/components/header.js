@@ -92,7 +92,7 @@ const Header = ({ data, pageContext }) => {
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <a href="/">
               <span className="sr-only">Workflow</span>
-              <StaticImage src={headerLogo} className="object-cover h-20"/>
+              <StaticImage src={"../images/headerLogo.png"} className="object-cover h-20"/>
             </a>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
