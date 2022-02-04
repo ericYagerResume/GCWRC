@@ -18,8 +18,6 @@ import {
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
 
-import headerLogo from '../images/headerLogo.png'
-
 import { StaticImage } from "gatsby-plugin-image"
 
 const solutions = [
@@ -92,7 +90,7 @@ const Header = ({ data, pageContext }) => {
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <a href="/">
               <span className="sr-only">Workflow</span>
-              <StaticImage src={"../images/headerLogo.png"} className="object-cover h-20"/>
+              <StaticImage src={"../images/headerLogo.png"} height={100}/>
             </a>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
