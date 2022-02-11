@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "gcwrc",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/eyager/practiceProjects/garnerscreek/gcwrc/amplify/backend/api/gcwrc/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    },
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    }
+  }
+}
